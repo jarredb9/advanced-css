@@ -34,3 +34,9 @@ body {
     padding: 0;
   }
 }
+
+::selection {
+  //changes highlighted text colors
+  background-color: $color-primary;
+  color: $color-white;
+}

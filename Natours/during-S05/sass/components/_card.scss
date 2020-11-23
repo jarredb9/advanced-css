@@ -187,7 +187,9 @@
   }
 
   //Change card layout for mobile devices
-  @include respond(tab-port) {
+  //@include respond(tab-port) {
+  @media only screen and (max-width: 56.25em), only screen and (hover: none) {
+    //hover:none checks if device is capable of hovering i.e no mouse
     height: auto; //need to give card and side the same height so they dont collapse
     border-radius: 3px;
     background-color: $color-white;
